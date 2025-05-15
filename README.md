@@ -17,36 +17,40 @@ A lightweight and powerful Python-based tool to scan devices connected to your l
 ## 🚀 How to Use
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/Alanbiju255/Alan-Network-scanner-.git
 
-cd alan-network-scanner
 
-2. Install dependencies
-pip install scapy
+```git clone https://github.com/Alanbiju255/Alan-Network-scanner-.git ```
 
-3. Run the scanner
+```cd alan-network-scanner```
+
+### 2. Install dependencies
+
+```pip install scapy ```
+
+### 3. Run the scanner
 
 
 Linux/macOS:
-sudo python3 alan_scanner.py
+
+```sudo python3 alan_scanner.py ```
 
 
 Windows:
-python alan_scanner.py
+
+``` python alan_scanner.py ```
 
 
 ---
 
 🖼️ Sample Output
 
-Enter IP range (e.g., 192.168.1.1/24): 192.168.1.1/24
+Enter IP range (e.g., 192.168.0.0/24): 
 
 Connected Devices:
 IP Address          MAC Address              Device Name
 ----------------------------------------------------------------------
-192.168.1.1         58:ef:68:23:4a:aa        my-router.local
-192.168.1.5         44:6d:57:1f:2e:cc        AlanPhone
+192.168.0.0        58:ef:68:23:4a:aa        my-router.local
+192.168.1.4         44:6d:57:1f:2e:cc        AlanPhone
 192.168.1.10        00:1A:2B:3C:4D:5E        Unknown
 
 
