@@ -1,54 +1,44 @@
+# 🔍 Alan Network Scanner
 
-
-# Alan Network Scanner
-
-A simple Python-based network scanner that identifies all devices connected to your Wi-Fi network. It shows the IP address, MAC address, and device name (if available) of each connected device.
+A lightweight and powerful Python-based tool to scan devices connected to your local network. It lists their **IP address**, **MAC address**, and **device name** (if available).
 
 ---
 
-## Features
+## ✨ Features
 
-- Scans your local network using ARP
-- Displays:
-  - IP Address
-  - MAC Address
-  - Device Name (Hostname)
-- Simple command-line interface
-- Author banner on startup
+- ⚡ Fast ARP-based network scanning
+- 📍 Shows IP, MAC, and Hostname
+- 🖥️ Identifies all connected devices on your LAN
+- ✅ Simple command-line interface
+
 
 ---
 
-## Banner
+## 🚀 How to Use
 
-============================================================ Alan Network Scanner Author : Alan Biju Instagram : alan.biju.75054
-
----
-
-## Usage
-
-### 1. Clone the repository:
+### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/alan-network-scanner.git
+git clone https://github.com/Alanbiju255/Alan-Network-scanner-.git
+
 cd alan-network-scanner
 
-2. Install dependencies:
-
+2. Install dependencies
 pip install scapy
 
-3. Run the scanner:
+3. Run the scanner
 
-Linux/Mac:
 
+Linux/macOS:
 sudo python3 alan_scanner.py
 
-Windows:
 
+Windows:
 python alan_scanner.py
 
 
 ---
 
-Example Output
+🖼️ Sample Output
 
 Enter IP range (e.g., 192.168.1.1/24): 192.168.1.1/24
 
@@ -62,24 +52,22 @@ IP Address          MAC Address              Device Name
 
 ---
 
-Notes
+ℹ️ Notes
 
-Run the script as root/administrator to allow ARP scanning.
+🛡️ Run the script with administrator/root privileges
 
-This tool only works on local networks (LAN/Wi-Fi).
+🌐 Works only on local networks
 
-Hostnames may show as "Unknown" if not discoverable via reverse DNS.
+❓ Hostnames may appear as "Unknown" if not resolvable
 
 
 
 ---
 
-Author
+👨‍💻 Author
 
 Alan Biju
-Instagram: @alan.biju.75054
+📷 Instagram: @alan.biju.75054
 
-
----
 
 ---
