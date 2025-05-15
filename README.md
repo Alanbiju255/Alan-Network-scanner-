@@ -40,21 +40,7 @@ Windows:
 ``` python alan_scanner.py ```
 
 
----
 
-🖼️ Sample Output
-
-Enter IP range (e.g., 192.168.0.0/24): 
-
-Connected Devices:
-IP Address          MAC Address              Device Name
-----------------------------------------------------------------------
-192.168.0.0        58:ef:68:23:4a:aa        my-router.local
-192.168.1.4         44:6d:57:1f:2e:cc        AlanPhone
-192.168.1.10        00:1A:2B:3C:4D:5E        Unknown
-
-
----
 
 ℹ️ Notes
 
