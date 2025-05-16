@@ -1,6 +1,4 @@
-Sure! Here's a more visually engaging and modern `README.md` file with emojis to make it look cooler and more appealing on GitHub:
 
----
 
 
 # 🔍 Alan Network Scanner
